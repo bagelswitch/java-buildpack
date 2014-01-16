@@ -37,7 +37,6 @@
       			</Realm>
 			<Host name='localhost'>
 				<Listener className="com.gopivotal.buildpack.support.tomcat.ApplicationStartupFailureDetectingLifecycleListener"/>
-                                <Listener className="com.cisco.demo.context.AppStateContextListener"/>
 			</Host>
 		</Engine>
 	</Service>
