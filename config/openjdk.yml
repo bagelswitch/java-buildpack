@@ -19,6 +19,7 @@ repository_root: "http://cf-buildpack.wbx2.com/cf-openjdk/{platform}/{architectu
 version: 1.7.0_+
 memory_sizes:
   heap: 1024m
+  permgen: 128m
 memory_heuristics:
   heap: 0.75
   permgen: 0.1
