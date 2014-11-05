@@ -15,7 +15,7 @@
 
 # Configuration for the Tomcat container
 ---
-version: 7.0.+
+version: 7.0.42
 repository_root: "http://cf-buildpack.wbx2.com/cf-tomcat/tomcat"
 support:
   version: 1.1.+
